@@ -5,7 +5,7 @@ import time
 class Bot:
     def __init__(self):
         self.mensagem = "Hey, teste do bot aqui"
-        self.grupos = ["Eu","Vic ❤❤❤❤"]
+        self.grupos = ["Eu"]
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
